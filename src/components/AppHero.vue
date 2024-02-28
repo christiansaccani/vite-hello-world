@@ -5,6 +5,8 @@
         data() {
             return {
                 message: "",
+                img: "https://static.thenounproject.com/png/1913796-200.png",
+                // l'img sta funzionando solo con l'url online, perchè?
             }
         },
 
@@ -21,7 +23,7 @@
 <template>
     
     <div id="jumbotron-container">
-        <img src="../img/img-A.png" alt="PurpleTheJumbo">
+        <img :src="img" alt="PurpleTheJumbo" />
         <div id="jumbotron">
             <h2>
                 A Friendly Purple Jumbotron
@@ -36,7 +38,7 @@
             </button>
             {{ message }}
         </div>
-        <img src="../img/img-A.png" alt="PurpleTheJumbo">
+        <img :src="img" alt="PurpleTheJumbo" />
     </div>
 
 </template>
