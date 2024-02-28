@@ -13,5 +13,9 @@
 <style >
     h1 {
         text-align: center;
+        margin: .5em;
+
+        border: 1px solid white;
+        padding: 1em;
     }
 </style>
