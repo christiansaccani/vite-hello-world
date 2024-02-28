@@ -14,11 +14,17 @@
 
 <template>
 
-  <AppTitle></AppTitle>
-  <AppHero></AppHero>
+  <div id="container">
+    <AppTitle></AppTitle>
+    <AppHero></AppHero>
+  </div>
 
 </template>
 
 <style >
+
+  #container {
+    margin: 20px;
+  }
 
 </style>
