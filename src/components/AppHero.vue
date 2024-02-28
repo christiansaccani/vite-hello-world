@@ -21,6 +21,7 @@
 <template>
     
     <div id="jumbotron-container">
+        <img src="../img/img-A.png" alt="PurpleTheJumbo">
         <div id="jumbotron">
             <h2>
                 A Friendly Purple Jumbotron
@@ -35,6 +36,7 @@
             </button>
             {{ message }}
         </div>
+        <img src="../img/img-A.png" alt="PurpleTheJumbo">
     </div>
 
 </template>
@@ -74,5 +76,10 @@
         padding: 1em;
 
         cursor: pointer;
+    }
+
+    img {
+        height: 200px;
+        align-self: center;
     }
 </style>
